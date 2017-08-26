@@ -1,8 +1,8 @@
-This repository is a list of sites that are known to block Tor, converted into an easy-to-copy ExitPolicy reject list.
+This repository is a list of sites that are known to block Tor, converted into an [easy-to-copy ExitPolicy reject list](https://raw.githubusercontent.com/saizai/tor_block_blocklist/master/blocklist.txt).
 
-The initial list is from https://trac.torproject.org/projects/tor/wiki/org/doc/ListOfServicesBlockingTor
+The initial list is from the [TorProject wiki](https://trac.torproject.org/projects/tor/wiki/org/doc/ListOfServicesBlockingTor).
 
-Sites are *only* included if they are *unusable* via Tor. Sites that are read-only, require extra CAPTCHA, no-login (and login isn't essential to using the site), etc should not be included.
+Sites that are usable via Tor with limitations — e.g. read-only, requiring extra CAPTCHA, no-login (where login isn't essential to using the site), etc. should *not* be included in this list. It should only list sites that are *unusable* via Tor.
 
 Sites can be listed with specific ports to block, e.g. if HTTP is blocked but HTTPS isn't. By default, it'll generate `ExitPolicy reject site.com:*`.
 
