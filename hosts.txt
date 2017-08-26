@@ -1,0 +1,290 @@
+# ASCII only.
+# One domain per line.
+# Optional port designation after domain, eg foo.com:80, to limit to specified port (e.g. if foo.com:443 works). Default is :*.
+
+# Banking / Finance
+
+secure.bankofamerica.com
+www.bitstamp.net
+buttercoin.com
+investor.vanguard.com
+www.lloydsbank.com
+
+# Blogs ( by engine )
+
+rankexploits.com
+www.typepad.com
+www.thebeatlesrarity.com
+
+# Charity
+
+fordfoundation.org
+
+# Commercial
+
+## Business-to-User / Retail Shopping
+
+www.abebooks.com
+www.adverts.ie
+alibris.com
+www.allmodern.com
+www.autotrader.com
+www.autozone.com
+www.ba.com
+www.britishairways.com
+www.barnesandnoble.com
+bn.com
+www.bestbuy.com
+www.carsdirect.com
+www.daft.ie
+www.delta.com
+www.fieldandstream.com
+www.fullsailbrewing.com
+www.hyatt.com
+www.hyundaiusa.com
+www.keepshooting.com
+www.kohls.com
+www.lowes.com
+www.lufthansa.com
+www.nashbar.com
+www.nike.com
+nolo.com
+nordstrom.com
+www.officedepot.com
+www.outdoorlife.com
+www.overstock.com
+pizza.de
+www.qantas.com
+www.rent.ie
+www.retailmenot.com
+www.riteaid.com
+www.ryanair.com
+www.samsclub.com
+www.samsung.com
+www.sportsmansguide.com
+www.staples.com
+www.stubhub.com
+www.target.com
+www.taxact.com
+www.ticketmaster.com
+www.tigerdirect.com
+www.totalwine.com
+ulta.com
+www.wayfair.com
+www.victoriassecret.com
+walmart.com
+
+## Business-to-Business / Commerce and Industry / Advertising
+
+www.bizjournals.com
+manta.com
+
+## Classified Ads
+www.craigslist.org
+www.letgo.com
+www.olx.com
+
+# Computing / Technical
+getsupport.apple.com
+support.apple.com
+discussions.apple.com
+www.box.com
+action.eff.org
+www.linuxquestions.org
+apps.db.ripe.net
+www.emergingthreats.net
+www.proofpoint.com
+flagfox.net
+www.flashpoint-intel.com
+www.fossamail.org
+ftp.gnu.org:20-21
+lists.gnu.org:20-21
+forums.informaction.com
+www.linuxquestions.org
+talk.maemo.org
+wiki.maemo.org
+www.manux.info
+geolite.maxmind.com
+accounts.firefox.com
+addons.mozilla.org
+www.namecheap.com
+
+pastebin.com
+www.proofpoint.com
+
+secunia.com
+www.slingbox.com
+statuspage.io
+turbofuture.com
+
+# Education
+dl.acm.org
+www.apa.org
+attainmentcompany.com
+www.austlii.edu.au
+cltc.berkeley.edu
+www.disneyjunior.com
+www.gotw.ca
+www.gutenberg.org
+adsabs.harvard.edu
+ibiblio.org
+www.ieeelcn.org
+www.justanswer.com
+www.lirrhistory.com
+sites.nationalacademies.org
+www.ohsu.edu
+www.planetary.org
+www.popsci.com
+www.questbridge.org
+study.com
+
+# Entertainment
+www.montypython.net
+noisetrade.com
+www.simpsonsworld.com
+
+# Forums / Imageboards
+www.albumartexchange.com
+arstechnica.com
+bash.org
+www.boards.ie
+drugs-forum.com
+knowyourmeme.com
+www.marioboards.com
+forums.scribus.net
+www.flyertalk.com
+
+# Gaming
+alphagamers.net
+www.go4go.net
+nintendo.com
+forums.nexusmods.com
+www.nexusmods.com
+
+# Government services / Publicly-funded resources
+www.wienkav.at
+www.politsei.ee
+www.ecb.europa.eu
+www.expresstoll.com
+www.healthcare.gov
+www.senate.gov
+www.fisc.uscourts.gov
+www.usmint.gov
+trenitalia.com
+www.usps.com
+
+# Clusters
+## 217.12.16.0/20
+www.juntadeandalucia.es
+www.canalsur.es
+alhambra-patronato.es
+www.andalucia.org
+www.villasdeandalucia.com
+
+# Health / Medical
+www.everydayhealth.com
+
+# IRC / SIP / XMPP / "non-web" network communication services and messaging
+
+kiwiirc.com
+webchat.oftc.net
+chat.efnet.org:9090
+
+# Mail services
+inbox.com
+mailinator.com:80
+mail.walla.co.il
+mail.walla.com
+
+# News media
+www.broadsheet.ie
+www.foxnews.com
+www.popsugar.com
+www.usnews.com
+usnews.rankingsandreviews.com
+
+# Professional
+www.actorsequity.org
+
+# Search engines
+www.azlyrics.com
+tineye.com
+www.ecosia.org
+www.google.com
+
+# Social networking
+
+## Communities / Friends / Interests
+www.airbnb.com
+www.avito.ru
+www.chess.com
+ello.co
+forums.freebsd.org
+furaffinity.net
+www.godlikeproductions.com
+klinkk.com
+mibbit.com
+www.pinterest.com
+yelp.com
+
+## Dating
+
+www.pof.com
+www.zoosk.com
+
+# Sports
+www.fifa.com
+www.foxsports.com
+
+# Travel / Transportation
+www.expedia.com
+www.travelocity.com
+wikitravel.org
+
+## Hotels
+www.bestwestern.com
+www.countryinns.com
+www.hyatt.com
+www.marriott.com
+www.motel6.com
+www.parkplaza.com
+www.radisson.com
+www.theroosevelthotel.com
+www.wyndhamhotels.com
+
+# Utilities ( Electric / Gas / Water / Telecom / TV / Internet )
+
+randomdatagenerator.com
+
+## Shipping
+www.uline.com
+www.ups.com
+wwwapps.ups.com
+
+## Telecommunications
+www.411.com
+www.switchboard.com
+www.whitepages.com
+www.addresses.com
+www.anywho.com
+pipl.com
+www.phonedetective.com
+people.yellowpages.com
+
+## TV / Video
+www.directv.com
+www.hulu.com
+www.mtv.com
+www.netflix.com
+play.spotify.com
+www.vevo.com
+www.twitch.tv
+
+## Wikis
+www.dkwiki.com
+dragon-quest.org
+www.pikminwiki.com
+fanon.pikminwiki.com
+www.mariowiki.com
+www.ssbwiki.com
+starfywiki.org
