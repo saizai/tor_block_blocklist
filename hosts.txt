@@ -9,6 +9,9 @@ www.bitstamp.net
 buttercoin.com
 investor.vanguard.com
 www.lloydsbank.com
+secure03a.chase.com
+secure01a.chase.com
+secure02a.chase.com
 
 # Blogs ( by engine )
 
@@ -162,6 +165,7 @@ forums.nexusmods.com
 www.nexusmods.com
 
 # Government services / Publicly-funded resources
+www.irs.gov
 www.wienkav.at
 www.politsei.ee
 www.ecb.europa.eu

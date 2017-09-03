@@ -1,22 +1,26 @@
 # secure.bankofamerica.com
-ExitPolicy reject 171.161.198.200:*
+ExitPolicy reject 171.161.206.200:*
 # www.bitstamp.net
 ExitPolicy reject 107.154.248.133:*
 # buttercoin.com
-ExitPolicy reject 104.27.165.245:*
-ExitPolicy reject 104.27.164.245:*
+ExitPolicy reject 69.64.147.242:*
 # investor.vanguard.com
-ExitPolicy reject 192.175.192.57:*
+ExitPolicy reject 192.175.192.116:*
 # www.lloydsbank.com
-ExitPolicy reject 104.123.114.61:*
+ExitPolicy reject 104.75.56.148:*
+# secure03a.chase.com
+ExitPolicy reject 159.53.232.15:*
+# secure01a.chase.com
+ExitPolicy reject 159.53.232.11:*
+# secure02a.chase.com
 # rankexploits.com
-ExitPolicy reject 104.28.3.23:*
 ExitPolicy reject 104.28.2.23:*
+ExitPolicy reject 104.28.3.23:*
 # www.typepad.com
 ExitPolicy reject 104.16.104.123:*
 ExitPolicy reject 104.16.107.123:*
-ExitPolicy reject 104.16.108.123:*
 ExitPolicy reject 104.16.105.123:*
+ExitPolicy reject 104.16.108.123:*
 ExitPolicy reject 104.16.106.123:*
 # www.thebeatlesrarity.com
 ExitPolicy reject 172.93.120.240:*
@@ -24,36 +28,36 @@ ExitPolicy reject 172.93.120.240:*
 ExitPolicy reject 174.129.25.170:*
 # www.abebooks.com
 ExitPolicy reject 52.87.44.95:*
-ExitPolicy reject 52.4.208.210:*
 ExitPolicy reject 52.87.120.250:*
+ExitPolicy reject 52.4.208.210:*
 # www.adverts.ie
-ExitPolicy reject 104.20.144.49:*
 ExitPolicy reject 104.20.145.49:*
+ExitPolicy reject 104.20.144.49:*
 # alibris.com
 ExitPolicy reject 65.160.236.65:*
 # www.allmodern.com
-ExitPolicy reject 2.18.73.230:*
+ExitPolicy reject 2.17.213.245:*
 # www.autotrader.com
 ExitPolicy reject 104.75.72.66:*
 # www.autozone.com
 ExitPolicy reject 192.30.31.99:*
 # www.ba.com
-ExitPolicy reject 23.223.22.246:*
+ExitPolicy reject 104.122.197.167:*
 # www.britishairways.com
-ExitPolicy reject 23.223.22.246:*
+ExitPolicy reject 104.122.197.167:*
 # www.barnesandnoble.com
-ExitPolicy reject 2.18.73.211:*
+ExitPolicy reject 104.86.243.74:*
 # bn.com
 ExitPolicy reject 65.204.48.118:*
 # www.bestbuy.com
-ExitPolicy reject 23.61.242.165:*
+ExitPolicy reject 2.23.145.181:*
 # www.carsdirect.com
 ExitPolicy reject 98.158.195.112:*
 # www.daft.ie
 ExitPolicy reject 104.25.22.100:*
 ExitPolicy reject 104.25.21.100:*
 # www.delta.com
-ExitPolicy reject 23.60.17.22:*
+ExitPolicy reject 2.23.153.104:*
 # www.fieldandstream.com
 ExitPolicy reject 192.33.31.58:*
 # www.fullsailbrewing.com
@@ -64,68 +68,68 @@ ExitPolicy reject 23.223.22.49:*
 ExitPolicy reject 23.223.22.49:*
 ExitPolicy reject 23.223.22.49:*
 # www.hyundaiusa.com
-ExitPolicy reject 23.60.30.50:*
+ExitPolicy reject 104.86.234.48:*
 # www.keepshooting.com
 ExitPolicy reject 76.9.29.178:*
 # www.kohls.com
-ExitPolicy reject 23.60.16.69:*
+ExitPolicy reject 2.23.154.160:*
 # www.lowes.com
-ExitPolicy reject 23.53.38.185:*
+ExitPolicy reject 2.17.212.219:*
 # www.lufthansa.com
 ExitPolicy reject 23.223.34.100:*
 # www.nashbar.com
 ExitPolicy reject 104.75.80.221:*
 # www.nike.com
-ExitPolicy reject 23.61.242.240:*
+ExitPolicy reject 2.23.155.19:*
 # nolo.com
 ExitPolicy reject 98.158.196.68:*
 # nordstrom.com
-ExitPolicy reject 23.60.16.133:*
+ExitPolicy reject 2.23.152.211:*
 # www.officedepot.com
 ExitPolicy reject 104.75.55.42:*
 # www.outdoorlife.com
 ExitPolicy reject 192.33.31.58:*
 # www.overstock.com
-ExitPolicy reject 2.18.74.96:*
+ExitPolicy reject 2.22.43.236:*
 # pizza.de
-ExitPolicy reject 104.123.145.223:*
+ExitPolicy reject 104.75.62.149:*
 # www.qantas.com
-ExitPolicy reject 23.61.241.39:*
+ExitPolicy reject 2.23.144.63:*
 # www.rent.ie
-ExitPolicy reject 104.31.92.137:*
 ExitPolicy reject 104.31.93.137:*
+ExitPolicy reject 104.31.92.137:*
 # www.retailmenot.com
-ExitPolicy reject 23.61.226.50:*
+ExitPolicy reject 104.75.77.147:*
 # www.riteaid.com
-ExitPolicy reject 104.123.114.234:*
+ExitPolicy reject 104.75.56.152:*
 # www.ryanair.com
 ExitPolicy reject 37.18.149.206:*
 # www.samsclub.com
-ExitPolicy reject 2.18.74.91:*
+ExitPolicy reject 23.53.44.206:*
 # www.samsung.com
-ExitPolicy reject 104.86.230.166:*
+ExitPolicy reject 2.22.240.47:*
 # www.sportsmansguide.com
-ExitPolicy reject 104.75.75.110:*
+ExitPolicy reject 104.86.247.85:*
 # www.staples.com
-ExitPolicy reject 23.61.243.210:*
+ExitPolicy reject 104.86.246.20:*
 # www.stubhub.com
-ExitPolicy reject 23.60.30.46:*
+ExitPolicy reject 104.86.234.45:*
 # www.target.com
-ExitPolicy reject 23.61.215.117:*
+ExitPolicy reject 104.86.225.129:*
 # www.taxact.com
 ExitPolicy reject 204.19.204.193:*
 # www.ticketmaster.com
-ExitPolicy reject 2.23.147.224:*
+ExitPolicy reject 104.86.225.234:*
 # www.tigerdirect.com
-ExitPolicy reject 64.71.161.137:*
 ExitPolicy reject 64.71.161.100:*
 ExitPolicy reject 64.71.161.140:*
+ExitPolicy reject 64.71.161.137:*
 # www.totalwine.com
 ExitPolicy reject 151.101.84.70:*
 # ulta.com
 ExitPolicy reject 72.32.99.232:*
 # www.wayfair.com
-ExitPolicy reject 2.18.73.230:*
+ExitPolicy reject 2.17.213.245:*
 # www.victoriassecret.com
 ExitPolicy reject 98.158.62.100:*
 ExitPolicy reject 98.158.62.101:*
@@ -134,24 +138,24 @@ ExitPolicy reject 98.158.62.103:*
 ExitPolicy reject 98.158.62.104:*
 ExitPolicy reject 98.158.62.105:*
 # walmart.com
-ExitPolicy reject 161.170.244.20:*
 ExitPolicy reject 161.170.248.20:*
+ExitPolicy reject 161.170.244.20:*
 # www.bizjournals.com
 ExitPolicy reject 107.154.116.27:*
 # manta.com
 ExitPolicy reject 192.225.208.19:*
 # www.craigslist.org
-ExitPolicy reject 208.82.237.225:*
+ExitPolicy reject 208.82.237.129:*
 # www.letgo.com
 ExitPolicy reject 104.75.73.61:*
 # www.olx.com
-ExitPolicy reject 2.22.41.77:*
+ExitPolicy reject 2.17.213.252:*
 # getsupport.apple.com
 ExitPolicy reject 104.75.83.23:*
 # support.apple.com
-ExitPolicy reject 104.76.60.190:*
+ExitPolicy reject 104.107.148.99:*
 # discussions.apple.com
-ExitPolicy reject 104.75.70.69:*
+ExitPolicy reject 104.86.235.73:*
 # www.box.com
 ExitPolicy reject 107.152.26.197:*
 # action.eff.org
@@ -173,8 +177,8 @@ ExitPolicy reject 192.230.77.135:*
 # flagfox.net
 ExitPolicy reject 77.96.80.209:*
 # www.flashpoint-intel.com
-ExitPolicy reject 104.16.147.228:*
 ExitPolicy reject 104.16.146.228:*
+ExitPolicy reject 104.16.147.228:*
 # www.fossamail.org
 ExitPolicy reject 104.27.182.121:*
 ExitPolicy reject 104.27.183.121:*
@@ -194,13 +198,13 @@ ExitPolicy reject 109.234.161.36:*
 ExitPolicy reject 104.16.38.47:*
 ExitPolicy reject 104.16.37.47:*
 # accounts.firefox.com
+ExitPolicy reject 52.89.196.202:*
 ExitPolicy reject 34.210.7.159:*
 ExitPolicy reject 52.88.60.90:*
-ExitPolicy reject 52.89.196.202:*
 # addons.mozilla.org
-ExitPolicy reject 52.43.202.135:*
-ExitPolicy reject 54.148.72.151:*
-ExitPolicy reject 50.112.169.119:*
+ExitPolicy reject 54.201.244.159:*
+ExitPolicy reject 34.213.133.170:*
+ExitPolicy reject 54.68.36.27:*
 # www.namecheap.com
 ExitPolicy reject 104.16.99.56:*
 ExitPolicy reject 104.16.100.56:*
@@ -214,8 +218,8 @@ ExitPolicy reject 139.85.4.118:*
 # statuspage.io
 ExitPolicy reject 104.192.142.98:*
 # turbofuture.com
-ExitPolicy reject 34.202.19.140:*
 ExitPolicy reject 52.21.5.144:*
+ExitPolicy reject 34.202.19.140:*
 ExitPolicy reject 52.86.50.215:*
 # dl.acm.org
 ExitPolicy reject 64.238.147.53:*
@@ -241,11 +245,11 @@ ExitPolicy reject 152.19.134.40:*
 # www.ieeelcn.org
 ExitPolicy reject 207.204.17.246:*
 # www.justanswer.com
-ExitPolicy reject 104.16.120.112:*
-ExitPolicy reject 104.16.123.112:*
-ExitPolicy reject 104.16.124.112:*
-ExitPolicy reject 104.16.122.112:*
 ExitPolicy reject 104.16.121.112:*
+ExitPolicy reject 104.16.120.112:*
+ExitPolicy reject 104.16.122.112:*
+ExitPolicy reject 104.16.124.112:*
+ExitPolicy reject 104.16.123.112:*
 # www.lirrhistory.com
 ExitPolicy reject 66.175.58.9:*
 # sites.nationalacademies.org
@@ -257,9 +261,9 @@ ExitPolicy reject 69.48.252.158:*
 # www.popsci.com
 ExitPolicy reject 192.33.31.58:*
 # www.questbridge.org
-ExitPolicy reject 23.23.184.103:*
-ExitPolicy reject 54.225.185.114:*
 ExitPolicy reject 54.235.115.4:*
+ExitPolicy reject 54.225.185.114:*
+ExitPolicy reject 23.23.184.103:*
 # study.com
 ExitPolicy reject 107.23.224.2:*
 ExitPolicy reject 52.0.4.252:*
@@ -268,7 +272,7 @@ ExitPolicy reject 184.154.46.6:*
 # noisetrade.com
 ExitPolicy reject 104.239.221.104:*
 # www.simpsonsworld.com
-ExitPolicy reject 2.18.72.110:*
+ExitPolicy reject 2.17.212.73:*
 # www.albumartexchange.com
 ExitPolicy reject 192.249.120.2:*
 # arstechnica.com
@@ -276,8 +280,8 @@ ExitPolicy reject 50.31.169.131:*
 # bash.org
 ExitPolicy reject 192.250.225.62:*
 # www.boards.ie
-ExitPolicy reject 104.20.70.96:*
 ExitPolicy reject 104.20.71.96:*
+ExitPolicy reject 104.20.70.96:*
 # drugs-forum.com
 ExitPolicy reject 31.7.0.231:*
 # knowyourmeme.com
@@ -289,29 +293,32 @@ ExitPolicy reject 31.185.27.102:*
 # www.flyertalk.com
 ExitPolicy reject 98.158.194.68:*
 # alphagamers.net
-ExitPolicy reject 104.28.24.137:*
 ExitPolicy reject 104.28.25.137:*
+ExitPolicy reject 104.28.24.137:*
 # www.go4go.net
 ExitPolicy reject 80.240.134.137:*
 # nintendo.com
-ExitPolicy reject 205.166.76.26:*
+ExitPolicy reject 52.26.154.76:*
+ExitPolicy reject 52.88.241.250:*
 # forums.nexusmods.com
 ExitPolicy reject 77.72.7.226:*
 # www.nexusmods.com
 ExitPolicy reject 104.25.117.119:*
 ExitPolicy reject 104.25.118.119:*
+# www.irs.gov
+ExitPolicy reject 23.217.158.225:*
 # www.wienkav.at
 ExitPolicy reject 217.116.64.80:*
 # www.politsei.ee
 ExitPolicy reject 213.184.55.4:*
 # www.ecb.europa.eu
-ExitPolicy reject 23.78.71.170:*
+ExitPolicy reject 2.23.147.89:*
 # www.expresstoll.com
 ExitPolicy reject 173.227.167.230:*
 # www.healthcare.gov
-ExitPolicy reject 23.61.210.165:*
+ExitPolicy reject 2.23.146.239:*
 # www.senate.gov
-ExitPolicy reject 104.98.135.8:*
+ExitPolicy reject 23.223.18.151:*
 # www.fisc.uscourts.gov
 ExitPolicy reject 63.241.40.34:*
 # www.usmint.gov
@@ -319,7 +326,7 @@ ExitPolicy reject 205.130.214.49:*
 # trenitalia.com
 ExitPolicy reject 193.138.162.107:*
 # www.usps.com
-ExitPolicy reject 2.23.146.132:*
+ExitPolicy reject 2.17.213.113:*
 # www.juntadeandalucia.es
 ExitPolicy reject 217.12.16.81:*
 ExitPolicy reject 217.12.16.80:*
@@ -334,8 +341,8 @@ ExitPolicy reject 217.12.24.99:*
 # www.everydayhealth.com
 ExitPolicy reject 192.33.31.52:*
 # kiwiirc.com
-ExitPolicy reject 104.25.32.27:*
 ExitPolicy reject 104.25.33.27:*
+ExitPolicy reject 104.25.32.27:*
 # webchat.oftc.net
 ExitPolicy reject 206.12.19.247:*
 # chat.efnet.org - ports 9090
@@ -343,10 +350,10 @@ ExitPolicy reject 216.246.34.82:9090
 # inbox.com
 ExitPolicy reject 64.135.77.80:*
 # mailinator.com - ports 80
-ExitPolicy reject 104.25.198.31:80
 ExitPolicy reject 104.25.199.31:80
+ExitPolicy reject 104.25.198.31:80
 # mail.walla.co.il
-ExitPolicy reject 2.18.75.222:*
+ExitPolicy reject 104.86.249.244:*
 # mail.walla.com
 ExitPolicy reject 192.118.82.149:*
 # www.broadsheet.ie
@@ -357,24 +364,24 @@ ExitPolicy reject 104.75.60.99:*
 ExitPolicy reject 52.86.118.49:*
 ExitPolicy reject 52.86.254.142:*
 # www.usnews.com
-ExitPolicy reject 104.66.121.76:*
+ExitPolicy reject 104.75.49.132:*
 # usnews.rankingsandreviews.com
-ExitPolicy reject 2.16.155.17:*
-ExitPolicy reject 2.16.155.9:*
+ExitPolicy reject 2.21.69.32:*
+ExitPolicy reject 2.21.69.43:*
 # www.actorsequity.org
 ExitPolicy reject 63.115.29.21:*
 # www.azlyrics.com
 ExitPolicy reject 5.79.76.225:*
 # tineye.com
-ExitPolicy reject 104.20.58.149:*
 ExitPolicy reject 104.20.59.149:*
+ExitPolicy reject 104.20.58.149:*
 # www.ecosia.org
 ExitPolicy reject 35.158.67.31:*
 ExitPolicy reject 34.253.157.143:*
 # www.google.com
 ExitPolicy reject 216.58.211.132:*
 # www.airbnb.com
-ExitPolicy reject 151.101.85.254:*
+ExitPolicy reject 2.17.214.12:*
 # www.avito.ru
 ExitPolicy reject 185.89.12.132:*
 # www.chess.com
@@ -388,8 +395,8 @@ ExitPolicy reject 204.109.59.195:*
 ExitPolicy reject 104.20.69.59:*
 ExitPolicy reject 104.20.70.59:*
 # www.godlikeproductions.com
-ExitPolicy reject 104.20.216.66:*
 ExitPolicy reject 104.20.217.66:*
+ExitPolicy reject 104.20.216.66:*
 # klinkk.com
 ExitPolicy reject 158.106.191.95:*
 # mibbit.com
@@ -401,15 +408,15 @@ ExitPolicy reject 151.101.36.116:*
 # www.pof.com
 ExitPolicy reject 199.182.216.166:*
 # www.zoosk.com
-ExitPolicy reject 104.123.145.246:*
+ExitPolicy reject 104.75.62.204:*
 # www.fifa.com
-ExitPolicy reject 23.78.89.48:*
+ExitPolicy reject 23.223.21.199:*
 # www.foxsports.com
-ExitPolicy reject 23.223.45.218:*
+ExitPolicy reject 104.86.253.111:*
 # www.expedia.com
-ExitPolicy reject 23.61.243.213:*
+ExitPolicy reject 23.53.41.231:*
 # www.travelocity.com
-ExitPolicy reject 23.61.211.9:*
+ExitPolicy reject 23.53.33.40:*
 # wikitravel.org
 ExitPolicy reject 98.158.195.136:*
 # www.bestwestern.com
@@ -417,71 +424,69 @@ ExitPolicy reject 104.75.66.254:*
 # www.countryinns.com
 ExitPolicy reject 104.75.75.82:*
 # www.marriott.com
-ExitPolicy reject 23.61.243.11:*
+ExitPolicy reject 23.53.35.92:*
 # www.motel6.com
 ExitPolicy reject 104.75.81.42:*
 # www.parkplaza.com
-ExitPolicy reject 23.61.229.105:*
+ExitPolicy reject 2.23.148.122:*
 # www.radisson.com
-ExitPolicy reject 23.61.229.105:*
+ExitPolicy reject 2.23.148.122:*
 # www.theroosevelthotel.com
 ExitPolicy reject 69.20.82.96:*
 # www.wyndhamhotels.com
-ExitPolicy reject 23.60.28.63:*
+ExitPolicy reject 2.23.154.38:*
 # randomdatagenerator.com
 ExitPolicy reject 217.160.223.47:*
 # www.uline.com
 ExitPolicy reject 104.75.14.38:*
 # www.ups.com
-ExitPolicy reject 2.18.74.61:*
+ExitPolicy reject 23.53.43.230:*
 # wwwapps.ups.com
-ExitPolicy reject 2.18.74.61:*
+ExitPolicy reject 23.53.43.230:*
 # www.411.com
 ExitPolicy reject 52.32.128.89:*
-ExitPolicy reject 54.149.49.30:*
 ExitPolicy reject 54.200.140.129:*
+ExitPolicy reject 54.149.49.30:*
 # www.switchboard.com
 ExitPolicy reject 52.32.128.89:*
-ExitPolicy reject 54.149.49.30:*
 ExitPolicy reject 54.200.140.129:*
+ExitPolicy reject 54.149.49.30:*
 # www.whitepages.com
 ExitPolicy reject 52.32.128.89:*
-ExitPolicy reject 54.149.49.30:*
 ExitPolicy reject 54.200.140.129:*
+ExitPolicy reject 54.149.49.30:*
 # www.addresses.com
 ExitPolicy reject 65.124.55.38:*
 # www.anywho.com
 ExitPolicy reject 65.124.55.138:*
 # pipl.com
-ExitPolicy reject 192.230.74.205:*
 ExitPolicy reject 192.230.66.205:*
+ExitPolicy reject 192.230.74.205:*
 # www.phonedetective.com
 ExitPolicy reject 192.30.31.72:*
 # people.yellowpages.com
 ExitPolicy reject 65.124.55.46:*
 # www.directv.com
-ExitPolicy reject 2.18.74.65:*
+ExitPolicy reject 2.17.214.155:*
 # www.hulu.com
 ExitPolicy reject 104.75.80.53:*
 # www.mtv.com
-ExitPolicy reject 2.18.73.59:*
+ExitPolicy reject 104.86.247.219:*
 # www.netflix.com
-ExitPolicy reject 52.209.209.98:*
-ExitPolicy reject 52.209.156.83:*
-ExitPolicy reject 52.209.236.203:*
-ExitPolicy reject 54.194.132.188:*
-ExitPolicy reject 52.50.80.134:*
-ExitPolicy reject 52.210.59.219:*
-ExitPolicy reject 52.51.139.59:*
-ExitPolicy reject 54.171.38.84:*
+ExitPolicy reject 52.17.221.176:*
+ExitPolicy reject 52.16.163.32:*
+ExitPolicy reject 52.17.166.241:*
+ExitPolicy reject 52.17.217.168:*
+ExitPolicy reject 52.17.209.91:*
+ExitPolicy reject 52.17.199.252:*
+ExitPolicy reject 52.16.77.14:*
+ExitPolicy reject 52.17.222.169:*
 # play.spotify.com
 ExitPolicy reject 104.199.64.136:*
-ExitPolicy reject 194.132.196.228:*
-ExitPolicy reject 194.132.198.118:*
 # www.vevo.com
 ExitPolicy reject 151.101.84.92:*
 # www.twitch.tv
-ExitPolicy reject 23.78.84.109:*
+ExitPolicy reject 72.247.175.60:*
 # www.dkwiki.com
 ExitPolicy reject 74.50.124.63:*
 # dragon-quest.org
