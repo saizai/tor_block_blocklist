@@ -12,6 +12,7 @@ www.lloydsbank.com
 secure03a.chase.com
 secure01a.chase.com
 secure02a.chase.com
+trustedidpremier.com
 
 # Blogs ( by engine )
 
