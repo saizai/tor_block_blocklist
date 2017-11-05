@@ -246,6 +246,9 @@ klinkk.com
 mibbit.com
 www.pinterest.com
 yelp.com
+www.yelp.com
+yelp.fr
+yelp.co.uk
 
 ## Dating
 
