@@ -3,7 +3,7 @@ This repository is a list of sites that are known to block Tor, converted into a
 To use:
 
 1. git clone https://github.com/saizai/tor_block_blocklist
-2. edit torrc to add:  %include /path/to/tor_block_blocklist/blocklist.txt
+2. edit torrc to add:  %include /path/to/tor_block_blocklist/blocklist.txt  ([requires tor 0.3.1.7+](https://github.com/torproject/tor/commit/ba3a5f82f11388237a3ba4995ddf0b6ffaaf492a))
 
 The initial list is from the [TorProject wiki](https://trac.torproject.org/projects/tor/wiki/org/doc/ListOfServicesBlockingTor).
 
