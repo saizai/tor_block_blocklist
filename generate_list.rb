@@ -68,7 +68,7 @@ File.open('blocklist.txt', 'w') do |f|
     f << "# #{host}#{" - ports #{h['ports'].join(', ')}" if h['ports'] != ['*']}\n"
     h['ips'].each do |ip|
       h['ports'].each do |port|
-        f << "ExitPolicy reject #{ip}:#{port}\n"
+        f << "ExitPolicy reject#{ '6' if ip.include?(':') } #{ip}:#{port}\n" unless ip.include?(':') # FIXME: Malformed policy 'reject6 2400:CB00:2048:1::681C:1493:*'. Discarding entire policy list.
       end
     end
   end

@@ -5,8 +5,8 @@ ExitPolicy reject 107.154.248.133:*
 # buttercoin.com
 ExitPolicy reject 104.28.20.147:*
 ExitPolicy reject 104.28.21.147:*
-ExitPolicy reject 2400:CB00:2048:1::681C:1493:*
-ExitPolicy reject 2400:CB00:2048:1::681C:1593:*
+# ExitPolicy reject6 2400:CB00:2048:1::681C:1493:*
+# ExitPolicy reject6 2400:CB00:2048:1::681C:1593:*
 # investor.vanguard.com
 ExitPolicy reject 192.175.192.116:*
 # www.lloydsbank.com
@@ -101,20 +101,20 @@ ExitPolicy reject 2.22.40.178:*
 ExitPolicy reject 192.33.31.183:*
 # www.overstock.com
 ExitPolicy reject 23.78.33.216:*
-ExitPolicy reject 2A02:26F0:2400:18D::238D:*
-ExitPolicy reject 2A02:26F0:2400:19C::238D:*
+# ExitPolicy reject6 2A02:26F0:2400:18D::238D:*
+# ExitPolicy reject6 2A02:26F0:2400:19C::238D:*
 # pizza.de
 ExitPolicy reject 104.17.101.183:*
 ExitPolicy reject 104.17.102.183:*
-ExitPolicy reject 2400:CB00:2048:1::6811:65B7:*
-ExitPolicy reject 2400:CB00:2048:1::6811:66B7:*
+# ExitPolicy reject6 2400:CB00:2048:1::6811:65B7:*
+# ExitPolicy reject6 2400:CB00:2048:1::6811:66B7:*
 # www.qantas.com
 ExitPolicy reject 23.78.55.181:*
 # www.rent.ie
 ExitPolicy reject 104.31.92.137:*
 ExitPolicy reject 104.31.93.137:*
-ExitPolicy reject 2400:CB00:2048:1::681F:5C89:*
-ExitPolicy reject 2400:CB00:2048:1::681F:5D89:*
+# ExitPolicy reject6 2400:CB00:2048:1::681F:5C89:*
+# ExitPolicy reject6 2400:CB00:2048:1::681F:5D89:*
 # www.retailmenot.com
 ExitPolicy reject 23.78.55.141:*
 # www.riteaid.com
@@ -183,31 +183,31 @@ ExitPolicy reject 75.126.162.205:*
 ExitPolicy reject 75.126.162.205:*
 # apps.db.ripe.net
 ExitPolicy reject 193.0.6.142:*
-ExitPolicy reject 2001:67C:2E8:22::C100:68E:*
+# ExitPolicy reject6 2001:67C:2E8:22::C100:68E:*
 # www.emergingthreats.net
 ExitPolicy reject 54.244.247.63:*
 # www.proofpoint.com - ports *, *
 ExitPolicy reject 192.230.77.135:*
 ExitPolicy reject 192.230.77.135:*
-ExitPolicy reject 2A02:E980:E::87:*
-ExitPolicy reject 2A02:E980:E::87:*
+# ExitPolicy reject6 2A02:E980:E::87:*
+# ExitPolicy reject6 2A02:E980:E::87:*
 # flagfox.net
 ExitPolicy reject 77.96.80.209:*
 # www.flashpoint-intel.com
 ExitPolicy reject 104.16.146.228:*
 ExitPolicy reject 104.16.147.228:*
-ExitPolicy reject 2400:CB00:2048:1::6810:92E4:*
-ExitPolicy reject 2400:CB00:2048:1::6810:93E4:*
+# ExitPolicy reject6 2400:CB00:2048:1::6810:92E4:*
+# ExitPolicy reject6 2400:CB00:2048:1::6810:93E4:*
 # www.fossamail.org
 ExitPolicy reject 104.27.182.121:*
 ExitPolicy reject 104.27.183.121:*
-ExitPolicy reject 2400:CB00:2048:1::681B:B679:*
-ExitPolicy reject 2400:CB00:2048:1::681B:B779:*
+# ExitPolicy reject6 2400:CB00:2048:1::681B:B679:*
+# ExitPolicy reject6 2400:CB00:2048:1::681B:B779:*
 # ftp.gnu.org - ports 20-21
-ExitPolicy reject 2001:4830:134:3::B:20-21
+# ExitPolicy reject6 2001:4830:134:3::B:20-21
 ExitPolicy reject 208.118.235.20:20-21
 # lists.gnu.org - ports 20-21
-ExitPolicy reject 2001:4830:134:3::11:20-21
+# ExitPolicy reject6 2001:4830:134:3::11:20-21
 ExitPolicy reject 208.118.235.17:20-21
 # forums.informaction.com
 ExitPolicy reject 82.103.139.52:*
@@ -220,8 +220,8 @@ ExitPolicy reject 109.234.161.36:*
 # geolite.maxmind.com
 ExitPolicy reject 104.16.37.47:*
 ExitPolicy reject 104.16.38.47:*
-ExitPolicy reject 2400:CB00:2048:1::6810:252F:*
-ExitPolicy reject 2400:CB00:2048:1::6810:262F:*
+# ExitPolicy reject6 2400:CB00:2048:1::6810:252F:*
+# ExitPolicy reject6 2400:CB00:2048:1::6810:262F:*
 # accounts.firefox.com
 ExitPolicy reject 34.210.7.159:*
 ExitPolicy reject 52.88.60.90:*
@@ -263,12 +263,12 @@ ExitPolicy reject 23.236.60.174:*
 ExitPolicy reject 66.175.58.9:*
 # www.gutenberg.org
 ExitPolicy reject 152.19.134.47:*
-ExitPolicy reject 2610:28:3090:3000::BAD:CAFE:47:*
+# ExitPolicy reject6 2610:28:3090:3000::BAD:CAFE:47:*
 # adsabs.harvard.edu
 ExitPolicy reject 131.142.185.10:*
 # ibiblio.org
 ExitPolicy reject 152.19.134.40:*
-ExitPolicy reject 2610:28:3090:3000::BAD:CAFE:23:*
+# ExitPolicy reject6 2610:28:3090:3000::BAD:CAFE:23:*
 # www.ieeelcn.org
 ExitPolicy reject 209.17.116.160:*
 # www.justanswer.com
@@ -286,8 +286,8 @@ ExitPolicy reject 137.53.244.59:*
 # www.planetary.org
 ExitPolicy reject 104.27.152.47:*
 ExitPolicy reject 104.27.153.47:*
-ExitPolicy reject 2400:CB00:2048:1::681B:982F:*
-ExitPolicy reject 2400:CB00:2048:1::681B:992F:*
+# ExitPolicy reject6 2400:CB00:2048:1::681B:982F:*
+# ExitPolicy reject6 2400:CB00:2048:1::681B:992F:*
 # www.popsci.com
 ExitPolicy reject 192.33.31.183:*
 # www.questbridge.org
@@ -312,13 +312,13 @@ ExitPolicy reject 192.250.225.62:*
 # www.boards.ie
 ExitPolicy reject 104.20.70.96:*
 ExitPolicy reject 104.20.71.96:*
-ExitPolicy reject 2400:CB00:2048:1::6814:4660:*
-ExitPolicy reject 2400:CB00:2048:1::6814:4760:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:4660:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:4760:*
 # drugs-forum.com
 ExitPolicy reject 31.7.0.231:*
 # knowyourmeme.com
 ExitPolicy reject 208.115.103.34:*
-ExitPolicy reject 2607:F8F8:2080::34:*
+# ExitPolicy reject6 2607:F8F8:2080::34:*
 # www.marioboards.com
 ExitPolicy reject 74.50.124.63:*
 # forums.scribus.net
@@ -339,8 +339,8 @@ ExitPolicy reject 104.25.117.119:*
 ExitPolicy reject 104.25.118.119:*
 # www.irs.gov
 ExitPolicy reject 23.192.22.52:*
-ExitPolicy reject 2600:1400:D:383::F50:*
-ExitPolicy reject 2600:1400:D:39C::F50:*
+# ExitPolicy reject6 2600:1400:D:383::F50:*
+# ExitPolicy reject6 2600:1400:D:39C::F50:*
 # www.wienkav.at
 ExitPolicy reject 217.116.64.80:*
 # www.politsei.ee
@@ -351,8 +351,8 @@ ExitPolicy reject 23.78.46.20:*
 ExitPolicy reject 173.227.167.230:*
 # www.healthcare.gov
 ExitPolicy reject 23.78.34.82:*
-ExitPolicy reject 2A02:26F0:2400:18A::1FC4:*
-ExitPolicy reject 2A02:26F0:2400:196::1FC4:*
+# ExitPolicy reject6 2A02:26F0:2400:18A::1FC4:*
+# ExitPolicy reject6 2A02:26F0:2400:196::1FC4:*
 # www.senate.gov
 ExitPolicy reject 2.23.138.125:*
 # www.fisc.uscourts.gov
@@ -393,12 +393,12 @@ ExitPolicy reject 140.162.57.49:*
 ExitPolicy reject 193.138.162.107:*
 # www.usps.com
 ExitPolicy reject 23.78.54.219:*
-ExitPolicy reject 2A02:26F0:2400:19C::1BF2:*
-ExitPolicy reject 2A02:26F0:2400:1A3::1BF2:*
+# ExitPolicy reject6 2A02:26F0:2400:19C::1BF2:*
+# ExitPolicy reject6 2A02:26F0:2400:1A3::1BF2:*
 # tools.usps.com
 ExitPolicy reject 23.78.54.219:*
-ExitPolicy reject 2A02:26F0:2400:19C::1BF2:*
-ExitPolicy reject 2A02:26F0:2400:1A3::1BF2:*
+# ExitPolicy reject6 2A02:26F0:2400:19C::1BF2:*
+# ExitPolicy reject6 2A02:26F0:2400:1A3::1BF2:*
 # www.juntadeandalucia.es
 ExitPolicy reject 217.12.16.80:*
 ExitPolicy reject 217.12.16.81:*
@@ -417,7 +417,7 @@ ExitPolicy reject 104.25.32.27:*
 ExitPolicy reject 104.25.33.27:*
 # webchat.oftc.net
 ExitPolicy reject 206.12.19.247:*
-ExitPolicy reject 2607:F8F0:610:4000:216:FFF:FE3B:F98A:*
+# ExitPolicy reject6 2607:F8F0:610:4000:216:FFF:FE3B:F98A:*
 # chat.efnet.org - ports 9090
 ExitPolicy reject 216.246.34.82:9090
 # inbox.com
@@ -425,8 +425,8 @@ ExitPolicy reject 64.135.77.80:*
 # mailinator.com - ports 80
 ExitPolicy reject 104.25.198.31:80
 ExitPolicy reject 104.25.199.31:80
-ExitPolicy reject 2400:CB00:2048:1::6819:C61F:80
-ExitPolicy reject 2400:CB00:2048:1::6819:C71F:80
+# ExitPolicy reject6 2400:CB00:2048:1::6819:C61F:80
+# ExitPolicy reject6 2400:CB00:2048:1::6819:C71F:80
 # mail.walla.co.il
 ExitPolicy reject 92.122.173.231:*
 # mail.walla.com
@@ -435,8 +435,8 @@ ExitPolicy reject 192.118.82.149:*
 ExitPolicy reject 91.210.233.53:*
 # www.foxnews.com
 ExitPolicy reject 2.23.156.202:*
-ExitPolicy reject 2A02:26F0:2400:19F::29D8:*
-ExitPolicy reject 2A02:26F0:2400:1A3::29D8:*
+# ExitPolicy reject6 2A02:26F0:2400:19F::29D8:*
+# ExitPolicy reject6 2A02:26F0:2400:1A3::29D8:*
 # www.popsugar.com
 ExitPolicy reject 34.207.46.192:*
 ExitPolicy reject 52.22.219.69:*
@@ -452,8 +452,8 @@ ExitPolicy reject 5.79.76.225:*
 # tineye.com
 ExitPolicy reject 104.20.58.149:*
 ExitPolicy reject 104.20.59.149:*
-ExitPolicy reject 2400:CB00:2048:1::6814:3A95:*
-ExitPolicy reject 2400:CB00:2048:1::6814:3B95:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:3A95:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:3B95:*
 # www.ecosia.org
 ExitPolicy reject 18.194.115.233:*
 ExitPolicy reject 35.158.67.31:*
@@ -464,7 +464,7 @@ ExitPolicy reject 209.85.233.105:*
 ExitPolicy reject 209.85.233.106:*
 ExitPolicy reject 209.85.233.147:*
 ExitPolicy reject 209.85.233.99:*
-ExitPolicy reject 2A00:1450:4010:C03::6A:*
+# ExitPolicy reject6 2A00:1450:4010:C03::6A:*
 # www.airbnb.com
 ExitPolicy reject 23.78.54.157:*
 # www.avito.ru
@@ -478,16 +478,16 @@ ExitPolicy reject 104.17.241.85:*
 # ello.co
 ExitPolicy reject 104.20.4.32:*
 ExitPolicy reject 104.20.5.32:*
-ExitPolicy reject 2400:CB00:2048:1::6814:420:*
-ExitPolicy reject 2400:CB00:2048:1::6814:520:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:420:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:520:*
 # forums.freebsd.org
 ExitPolicy reject 204.109.59.195:*
-ExitPolicy reject 2607:FC50:1:C600:216:3EFF:FE15:195:*
+# ExitPolicy reject6 2607:FC50:1:C600:216:3EFF:FE15:195:*
 # furaffinity.net
 ExitPolicy reject 104.20.69.59:*
 ExitPolicy reject 104.20.70.59:*
-ExitPolicy reject 2400:CB00:2048:1::6814:453B:*
-ExitPolicy reject 2400:CB00:2048:1::6814:463B:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:453B:*
+# ExitPolicy reject6 2400:CB00:2048:1::6814:463B:*
 # www.godlikeproductions.com
 ExitPolicy reject 104.20.216.66:*
 ExitPolicy reject 104.20.217.66:*
@@ -520,8 +520,8 @@ ExitPolicy reject 23.78.59.138:*
 # wikitravel.org
 ExitPolicy reject 104.31.88.86:*
 ExitPolicy reject 104.31.89.86:*
-ExitPolicy reject 2400:CB00:2048:1::681F:5856:*
-ExitPolicy reject 2400:CB00:2048:1::681F:5956:*
+# ExitPolicy reject6 2400:CB00:2048:1::681F:5856:*
+# ExitPolicy reject6 2400:CB00:2048:1::681F:5956:*
 # www.bestwestern.com
 ExitPolicy reject 2.23.158.108:*
 # www.countryinns.com
@@ -577,14 +577,14 @@ ExitPolicy reject 23.78.61.48:*
 # www.mtv.com
 ExitPolicy reject 92.122.172.126:*
 # www.netflix.com
-ExitPolicy reject 2A01:578:3::34D1:ECCB:*
-ExitPolicy reject 2A01:578:3::34D2:3BDF:*
-ExitPolicy reject 2A01:578:3::364C:FC6D:*
-ExitPolicy reject 2A01:578:3::364D:C542:*
-ExitPolicy reject 2A01:578:3::364D:C79A:*
-ExitPolicy reject 2A01:578:3::369A:7B8A:*
-ExitPolicy reject 2A01:578:3::36C2:BCE9:*
-ExitPolicy reject 2A01:578:3::36C2:D8C5:*
+# ExitPolicy reject6 2A01:578:3::34D1:ECCB:*
+# ExitPolicy reject6 2A01:578:3::34D2:3BDF:*
+# ExitPolicy reject6 2A01:578:3::364C:FC6D:*
+# ExitPolicy reject6 2A01:578:3::364D:C542:*
+# ExitPolicy reject6 2A01:578:3::364D:C79A:*
+# ExitPolicy reject6 2A01:578:3::369A:7B8A:*
+# ExitPolicy reject6 2A01:578:3::36C2:BCE9:*
+# ExitPolicy reject6 2A01:578:3::36C2:D8C5:*
 ExitPolicy reject 52.30.140.39:*
 ExitPolicy reject 52.30.142.159:*
 ExitPolicy reject 52.31.45.219:*
@@ -604,7 +604,7 @@ ExitPolicy reject 2.23.128.28:*
 # www.dkwiki.com
 ExitPolicy reject 74.50.124.63:*
 # dragon-quest.org
-ExitPolicy reject 2600:3C03::F03C:91FF:FE1F:B872:*
+# ExitPolicy reject6 2600:3C03::F03C:91FF:FE1F:B872:*
 ExitPolicy reject 45.33.67.173:*
 # www.pikminwiki.com
 ExitPolicy reject 74.50.124.63:*
